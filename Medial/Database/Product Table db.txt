@@ -1,0 +1,13 @@
+create table Products
+(
+Product_Id integer primary key auto_increment,
+Product_code varchar(100), 
+Product_Name varchar(100),
+Company_Name varchar(100),
+Description varchar(40),
+Description2 varchar(1000),
+Price long,
+Category varchar(50),
+Quantity integer,
+Product_Photo Longblob
+)

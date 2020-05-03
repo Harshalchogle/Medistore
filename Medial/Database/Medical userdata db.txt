@@ -1,0 +1,19 @@
+create table userdata
+(
+userid integer primary key auto_increment,
+First_Name varchar(400),
+Last_Name varchar(400),
+Email varchar(40),
+Telephone bigint,
+Fax integer,
+Company varchar(400),
+Add1 varchar(400),
+Add2 varchar(400),
+City varchar(40),
+PostCode integer,
+Country varchar(40),
+Region varchar(40),
+Password varchar(40),
+ConfirmPassword varchar(40),
+Role varchar(10)
+)

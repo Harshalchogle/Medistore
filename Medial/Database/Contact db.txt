@@ -1,0 +1,7 @@
+create table contact 
+(
+contact_id integer primary key auto_increment,
+name varchar(400),
+email varchar(500),
+message varchar(4000)
+)

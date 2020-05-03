@@ -1,0 +1,8 @@
+create table prescription
+(
+Presc_Id integer auto_increment,
+userid int,
+Presc_Photo Longblob,
+primary key(Presc_Id),
+foreign key(userid) references userdata(userid)
+)

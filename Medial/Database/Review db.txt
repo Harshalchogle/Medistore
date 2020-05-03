@@ -1,0 +1,8 @@
+Create table Review
+(
+Review_Id integer primary key auto_increment,
+Name varchar(400),
+Review varchar(8000),
+Rating varchar(10),
+Product_Name varchar(4000)
+)

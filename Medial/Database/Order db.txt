@@ -1,0 +1,12 @@
+create table orders
+(
+order_id integer primary key auto_increment,
+Cart_Id integer,
+Product_id integer,
+userid integer,
+quantity integer,
+Price float,
+foreign key(Product_Id) references products(Product_Id),
+foreign key(Cart_Id) references cart(Cart_Id),
+foreign key(userid) references userdata(userid)
+)
